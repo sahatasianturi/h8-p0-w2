@@ -1,0 +1,76 @@
+1.Newton Second Law
+
+SET value of MassaBenda with 600
+SET value of PercepatanBenda with 2
+
+SET value of ResultanGaya with CALCULATE of MassaBenda * PercepatanBenda
+
+DISPLAY ResultanGaya
+
+
+==========================================================================
+
+2.Tahun Kabisat
+
+
+PSEUDOCODE:
+
+SET Tahun with any value
+
+IF Tahun MOD 4 = 0 AND Tahun MOD 100 != 0 
+
+DISPLAY "Tahun Kabisat"
+
+ELSEIF Tahun MOD 4 = 0 AND Tahun MOD 100 = 0 AND Tahun MOD 400=0
+
+DISPLAY "Tahun Kabisat"
+  
+ELSE
+
+DISPLAY "BUKAN TAHUN KABISAT"
+
+=======================================================================
+
+3. Laundry Day
+
+
+PSEUDOCODE:
+
+SET JumlahPakaian with 20
+SET DiMesin with 0
+
+WHILE JumlahPakaian >0 
+ADD DiMesin by 1 AND JumlahPakaian -1
+
+IF Jumlahpakaian equal to 0 AND DiMesin equal to 20
+
+DISPLAY "Nyalakan Mesin Cuci"
+
+========================================================================
+
+
+4. Periksa Kuku
+
+
+PSEUDOCODE:
+
+SET JumlahSiswa with 40
+SET SiswaDone with 0
+SET Kuku with Panjang AND Pendek
+
+WHILE SiswaDone <= JumlahSiswa
+
+IF Kuku = Panjang
+
+DISPLAY "KAMU DIHUKUM"
+
+ELSE
+DISPLAY "KAMU ANAK YANG BAIK"
+
+ADD SiswaDone with 1
+
+
+
+
+
+
