@@ -1,4 +1,4 @@
-var Nama = '';
+var Nama = 'Ana';
 var Peran ='Tabib';
 if (Nama){
     if (Peran){
