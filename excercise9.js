@@ -5,7 +5,7 @@ function shoutOut(){
   console.log(shoutOut());
 
 
-  console.log(=============);
+  console.log('=============');
 
 // no. 2
 
@@ -19,7 +19,7 @@ function shoutOut(){
   var hasilPerkalian = calculateMultiply(num1,num2);
   console.log(hasilPerkalian); 
 
-  console.log(=============);
+  console.log('=============');
 
   //no.3 
   function processSentence(name,age,address,hobby){
